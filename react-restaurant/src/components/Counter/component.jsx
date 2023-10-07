@@ -1,9 +1,11 @@
+import { Button } from "../Button/component";
+
 export const Counter = ({count, onIncrease, onDecrease}) => {
     return (
         <>
-            <button onClick={onDecrease} disabled={count <= 0}>-</button>
+            <Button onClick={onDecrease} size="sm" disabled={count <= 0} text="-"></Button>
             <span>{count}</span>
-            <button onClick={onIncrease} disabled={count >= 5}>+</button>
+            <Button onClick={onIncrease} size="sm" disabled={count >= 5} text="+"></Button>
         </>
     )
 }
