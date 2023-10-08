@@ -20,11 +20,17 @@
 .button:disabled {
     background: rgba(114, 108, 108, 0.5);
 }
-
-.primary {
-    background: #2e2ed9;
+.primary.dark {
+    background: #01012e;
 }
-.secondary {
+.secondary.dark {
+    background: #023b61;
+}
+
+.primary.light {
+    background: #2929db;
+}
+.secondary.light {
     background: #269be7;
 }
 
