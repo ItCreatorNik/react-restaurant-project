@@ -1,0 +1,39 @@
+.button {
+    display: inline-block;
+    border: none;
+    background: none;
+    color: #fff;
+    border-radius: 12px;
+    /*min-width: 120px;*/
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button:disabled {
+    background: rgba(114, 108, 108, 0.5);
+}
+
+.primary {
+    background: #2e2ed9;
+}
+.secondary {
+    background: #269be7;
+}
+
+.sm {
+    height: 40px;
+}
+.md {
+    height: 50px;
+}
+.lg {
+    height: 60px;
+}

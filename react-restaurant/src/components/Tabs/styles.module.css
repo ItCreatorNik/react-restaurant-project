@@ -1,0 +1,11 @@
+.tab {
+    margin: 0 15px;
+}
+
+.tabActive {
+    background: #bdd233;
+}
+
+.tabActive:hover {
+    background: rgba(189, 210, 51, 0.8);
+}
