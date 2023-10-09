@@ -14,7 +14,7 @@ export const Main = () => {
   
     return (
       <div className={styles.root}>
-        <Header/>
+        <Header className={styles.header}/>
           <main className={styles.main}>
               <Tabs tabs={tabs} onTabSelect={setActiveRestaurantIndex} activeIndex={activeRestaurantIndex} />
               <Restaurant restaurant={restaurants[activeRestaurantIndex]} />
