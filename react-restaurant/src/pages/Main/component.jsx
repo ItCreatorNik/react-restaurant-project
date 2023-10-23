@@ -14,6 +14,7 @@ const tabs = restaurants.map((restaurant) => ({
 export const Main = () => {
   const [activeRestaurantIndex, setActiveRestaurantIndex] = useState(0);
 
+
   return (
     <div className={styles.root}>
       <Header />
