@@ -1,9 +1,9 @@
 import { Review } from "../Review/component";
 
-export const Reviews = ({ reviews }) => {
+export const Reviews = ({ reviewIds }) => {
     return (
         <div>
-            {!!reviews && reviews.map(review => <Review key={review.id} reviewerName={review.user} review={review.text}/>)}
+            {!!reviewIds && reviewIds.map(reviewId => <Review key={reviewId} reviewId={reviewId}/>)}
         </div>
     )
 }

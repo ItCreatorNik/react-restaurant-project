@@ -1,9 +1,10 @@
 import { Dish } from "../Dish/component";
 
-export const Menu = ({ menu }) => {
+export const Menu = ({ dishIds }) => {
+
     return (
         <div>
-            {!!menu && menu.map(dish => <Dish key={dish.id} name={dish.name}/>)}
+            {!!dishIds && dishIds.map(dishId => <Dish key={dishId} dishId={dishId}/>)}
         </div>
     )
 }
