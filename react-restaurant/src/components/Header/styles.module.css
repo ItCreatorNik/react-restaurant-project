@@ -8,6 +8,10 @@
     align-items: center;   
 }
 
+.themeDark {
+    
+}
+
 .navList {
     display: flex;
     align-items: center;

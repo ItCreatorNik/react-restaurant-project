@@ -2,8 +2,11 @@
     margin: 0 15px;
 }
 
-.tabActive {
+.tabActive.light {
     background: #bdd233;
+}
+.tabActive.dark {
+    background: #758221;
 }
 
 .tabActive:hover {
