@@ -1,5 +1,4 @@
 import { Button } from "../Button/component";
-import classNames from "classnames";
 
 export const Tab = ({ id, text, onClick, className }) => {
     return (
